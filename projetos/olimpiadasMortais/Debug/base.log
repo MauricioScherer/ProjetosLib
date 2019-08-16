@@ -1,0 +1,97 @@
+﻿Build started 05/05/2015 00:01:03.
+     1>Project "D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\base.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../../libUnicornio/external/SDL2/include /I../../libUnicornio/external/SDL2_image /I../../libUnicornio/external/SDL2_mixer /I../../libUnicornio/external/SDL2_ttf /I../../libUnicornio/include /I../../libUnicornio/include/Colisao /I../../libUnicornio/include/Eventos /I../../libUnicornio/include/Interface /I../../libUnicornio/include/Midia /I../../libUnicornio/include/TileMap /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt /I../../libEGL/ Jogo.cpp main.cpp Obstaculo.cpp Personagem.cpp Personagem2.cpp
+         Personagem2.cpp
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\personagem2.cpp(35): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\personagem2.cpp(64): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\personagem2.cpp(78): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\personagem2.cpp(125): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\personagem2.cpp(187): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\personagem2.cpp(188): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Personagem.cpp
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\personagem.cpp(35): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\personagem.cpp(66): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\personagem.cpp(80): warning C4305: '+=' : truncation from 'double' to 'float'
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\personagem.cpp(127): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\personagem.cpp(196): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\personagem.cpp(197): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Obstaculo.cpp
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\obstaculo.cpp(20): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\obstaculo.cpp(28): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\obstaculo.cpp(35): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\obstaculo.cpp(48): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\obstaculo.cpp(63): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\obstaculo.cpp(64): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\obstaculo.cpp(77): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\obstaculo.cpp(78): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         main.cpp
+         Jogo.cpp
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(119): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(134): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(142): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(160): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(161): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(163): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(166): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(201): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(202): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(206): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(210): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(218): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(224): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(227): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(228): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(264): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(266): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(283): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(285): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(304): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(309): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(318): warning C4305: '-=' : truncation from 'double' to 'float'
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(326): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(347): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(355): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(382): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(383): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(385): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(386): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(387): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>d:\jogos digitais\1 semestre\programacao\libunicornio-master\projetos\olimpiadas_starwars_fina-final\jogo.cpp(388): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\base.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\..\libUnicornio\lib\MSVS_2013 /LIBPATH:..\..\libUnicornio\external\lib\Windows\x86 libUnicornio_d.lib SDL2main.lib SDL2.lib SDL2_image.lib SDL2_ttf.lib SDL2_mixer.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:".\bin\base.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\bin\base.lib" /MACHINE:X86 /SAFESEH Debug\Jogo.obj
+         Debug\main.obj
+         Debug\Obstaculo.obj
+         Debug\Personagem.obj
+         Debug\Personagem2.obj
+     1>Jogo.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>libUnicornio_d.lib(uniColisoes.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(uniColisoes.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(uniColisoesSprite.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(uniColisoesSprite.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(Eventos.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(Eventos.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(EventosAplicacao.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(EventosAplicacao.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(EventosInputTexto.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(EventosInputTexto.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(EventosJoysticks.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(EventosJoysticks.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(EventosMouse.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(EventosMouse.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(EventosTeclado.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(EventosTeclado.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(EventosTelaDeToque.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(EventosTelaDeToque.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(GerenciadorDeRecursos.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(GerenciadorDeRecursos.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(Janela.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(Janela.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(libUnicornio.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(libUnicornio.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(Audio.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(Audio.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(Fonte.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(Fonte.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(Musica.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(Musica.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(Som.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(Som.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(Sprite.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(Sprite.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(SpriteSheet.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(SpriteSheet.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(Texto.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(Texto.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(MixadorDeAudios.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(MixadorDeAudios.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+     1>libUnicornio_d.lib(Vetor2D.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'libUnicornio_d.lib(Vetor2D.obj)' or at 'D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\bin\vc120.pdb'; linking object as if no debug info
+         base.vcxproj -> D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\.\bin\base.exe
+     1>Done Building Project "D:\Jogos Digitais\1 semestre\Programacao\libUnicornio-master\projetos\olimpiadas_starwars_fina-final\base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.48

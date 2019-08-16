@@ -1,0 +1,5 @@
+﻿  Menu.cpp
+w:\libunicornio\libunicornio-master\libunicornio-master\projetos\jogoteste\menu.cpp(24): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+w:\libunicornio\libunicornio-master\libunicornio-master\projetos\jogoteste\menu.cpp(25): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+w:\libunicornio\libunicornio-master\libunicornio-master\projetos\jogoteste\menu.cpp(26): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
+  base.vcxproj -> W:\Libunicornio\libUnicornio-master\libUnicornio-master\projetos\jogoTeste\bin\base-debug.exe
