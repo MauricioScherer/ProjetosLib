@@ -1,16 +1,18 @@
 #pragma once
 #include "enemy.h"
+#include "libUnicornio.h"
 
 class room
 {
 public:
 	room();
 	~room();
-		
+
+	void Inicializar();
+	void Desenhar();
+	void Finalizar();		
 
 private:
-	int _qtPorta, _qtEnemy;
-
-	enemy _enemy;
+	Sprite _background;
 };
 

@@ -1,8 +1,8 @@
 #pragma once
 #include "libUnicornio.h"
 #include "menu.h"
-
-
+#include "room.h"
+#include "player.h"
 
 class Jogo
 {
@@ -16,6 +16,8 @@ public:
 	void executar();
 
 private:
-	menu _menu;
+	menu _classMenu;
+	room _classRoom;
+	player _classPlayer;
 };
 

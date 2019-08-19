@@ -10,14 +10,19 @@ Jogo::~Jogo()
 
 void Jogo::inicializar()
 {
-	uniInicializar(800, 600, false);
+	uniInicializar(600, 600, false);
 
-	_menu.inicializar();
+	_classMenu.inicializar();
+	_classRoom.Inicializar();
+	_classPlayer.Inicializar();
 }
 
 void Jogo::finalizar()
 {
-	_menu.finalizar();
+	_classMenu.finalizar();
+	_classRoom.Finalizar();
+	_classPlayer.Finalizar();
+
 	uniFinalizar();
 }
 
@@ -27,14 +32,22 @@ void Jogo::executar()
 	{
 		uniIniciarFrame();
 
-		if (_menu.GetStatusMenu() == MENU)
+		switch (_classMenu.GetStatusMenu())
 		{
-			//_menu.atualizar();
-			_menu.desenhar();
-		}
-		else
-		{
-
+		case MENU:
+			_classMenu.atualizar();
+			_classMenu.desenhar();
+			break;
+		case INGAME:
+			_classRoom.Desenhar();
+			_classPlayer.animar();
+			_classPlayer.Move();
+			_classPlayer.desenhar();
+			break;
+		case EXIT:
+			break;
+		default:
+			break;
 		}
 
 		uniTerminarFrame();

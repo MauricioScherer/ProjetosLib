@@ -1,22 +1,41 @@
 #pragma once
+#include "libUnicornio.h"
+
+enum PersonagemAnim
+{
+	PARADO,
+	CAMINHANDO_BAIXO,
+	CAMINHANDO_ESQ,
+	CAMINHANDO_DIR,
+	CAMINHANDO_CIMA,
+	GIRANDO
+};
+
 class player
 {
 public:
 	player();
 	~player();
 
+	void Inicializar();
+	void Finalizar();
+	void animar();
+	void desenhar();
+
+	void setPos(int p_xPos, int p_yPos);
+	void setSpeed(float p_vel);
+	void setSpriteSheet(string p_sprPlayer);
+	void Move();
+	float GetPosX();
+	float GetPosY();
+
 	int GetLife();
 	void SetLife(int p_life);
-	int GetXp();
-	void SetXp(int p_xp);
-	int GetMana();
-	void SetMana(int p_mana);
-	int GetLevel();
-	void SetLevel(int p_level);
-	int GetDamage();
-	void SetDamage(int p_damage);
 
 private:
-	int _life, _xp, _mana, _level, _damage;
+	int _life;
+	Sprite _sprPlayer;
+	float _xPos, _yPos;
+	float _speed;
 };
 

@@ -12,8 +12,8 @@ void menu::inicializar()
 {
 	_screenView = MENU;
 
-	gRecursos.carregarSpriteSheet("btnStart", "assets/sprite/btnStart.png", 3, 1);
-	gRecursos.carregarSpriteSheet("btnExit", "assets/sprite/btnExit.png", 3, 1);
+	gRecursos.carregarSpriteSheet("btnStart", "assets/sprite/ui/btnStart.png", 3, 1);
+	gRecursos.carregarSpriteSheet("btnExit", "assets/sprite/ui/btnExit.png", 3, 1);
 
 	_btnStart.setSpriteSheet("btnStart");
 	_btnExit.setSpriteSheet("btnExit");

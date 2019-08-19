@@ -1,6 +1,7 @@
-﻿  menu.cpp
-w:\libunicornio\libunicornio-master\projetoslib\projetos\jogobaseom\menu.cpp(21): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
-w:\libunicornio\libunicornio-master\projetoslib\projetos\jogobaseom\menu.cpp(22): warning C4244: 'argumento': conversão de 'int' para 'float', possível perda de dados
-  Jogo.cpp
-  Gerando Código...
+﻿  player.cpp
+w:\libunicornio\libunicornio-master\projetoslib\projetos\jogobaseom\player.cpp(33): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+w:\libunicornio\libunicornio-master\projetoslib\projetos\jogobaseom\player.cpp(34): warning C4244: '=': conversão de 'int' para 'float', possível perda de dados
+w:\libunicornio\libunicornio-master\projetoslib\projetos\jogobaseom\player.cpp(54): warning C4244: 'argumento': conversão de 'float' para 'int', possível perda de dados
+w:\libunicornio\libunicornio-master\projetoslib\projetos\jogobaseom\player.cpp(59): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
+w:\libunicornio\libunicornio-master\projetoslib\projetos\jogobaseom\player.cpp(60): warning C4244: 'inicializando': conversão de 'int' para 'float', possível perda de dados
   base.vcxproj -> W:\Libunicornio\libUnicornio-master\ProjetosLib\projetos\jogoBaseOM\bin\base-debug.exe
