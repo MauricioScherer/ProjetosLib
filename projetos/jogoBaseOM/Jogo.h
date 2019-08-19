@@ -1,10 +1,8 @@
 #pragma once
 #include "libUnicornio.h"
+#include "menu.h"
 
-enum ScreenView {
-	MENU,
-	INGAME
-};
+
 
 class Jogo
 {
@@ -18,6 +16,6 @@ public:
 	void executar();
 
 private:
-	ScreenView _screenView;
+	menu _menu;
 };
 

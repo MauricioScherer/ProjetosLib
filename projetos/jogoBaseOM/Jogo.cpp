@@ -11,15 +11,13 @@ Jogo::~Jogo()
 void Jogo::inicializar()
 {
 	uniInicializar(800, 600, false);
-	
-	_screenView = MENU;
+
+	_menu.inicializar();
 }
 
 void Jogo::finalizar()
 {
-	//	O resto da finalização vem aqui (provavelmente, em ordem inversa a inicialização)!
-	//	...
-
+	_menu.finalizar();
 	uniFinalizar();
 }
 
@@ -29,14 +27,14 @@ void Jogo::executar()
 	{
 		uniIniciarFrame();
 
-		switch (_screenView)
+		if (_menu.GetStatusMenu() == MENU)
 		{
-		case MENU:
-			break;
-		case INGAME:
-			break;
-		default:
-			break;
+			//_menu.atualizar();
+			_menu.desenhar();
+		}
+		else
+		{
+
 		}
 
 		uniTerminarFrame();
